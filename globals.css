@@ -1,0 +1,9 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { background: #0D0F14; color: #F1F5F9; font-family: 'Sora', sans-serif; }
+::-webkit-scrollbar { width: 4px; height: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #252A3A; border-radius: 2px; }
+input::placeholder { color: #64748B; }
+button { cursor: pointer; }
+button:hover { opacity: 0.85; }
+@keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.3} }
